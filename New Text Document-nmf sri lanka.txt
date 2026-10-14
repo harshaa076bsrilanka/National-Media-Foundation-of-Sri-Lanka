@@ -1,0 +1,253 @@
+the following sections:
+
+A. Official header
+
+Organization name and logo placeholder.
+
+Navigation menu and mobile hamburger menu.
+
+Sinhala, Tamil, and English language selector.
+
+Search function.
+
+Contact and membership links.
+
+B. Hero banner
+
+Display the organization name prominently:
+
+NATIONAL MEDIA FOUNDATION OF SRI LANKA
+
+Suggested tagline:
+
+â€œAdvancing Media Professionalism, Freedom, Education and Social Responsibility.â€
+
+Include a short institutional introduction and buttons for â€œAbout the Foundationâ€ and â€œLatest News.â€
+
+C. Latest News and Official Announcements
+
+Featured news story with a large image.
+
+News cards with headlines, dates, categories, summaries, and Read More links.
+
+Official announcements and press releases.
+
+Breaking-news banner that administrators can enable or disable.
+
+Search and category filters.
+
+Pagination for older articles.
+
+D. About the Foundation
+
+Institutional overview.
+
+Mission and vision.
+
+History and establishment.
+
+Constitution and objectives.
+
+Leadership and organizational structure, populated only with verified information.
+
+E. Programmes and Activities
+
+Journalism training and professional development.
+
+Media literacy and education.
+
+Journalism ethics and professional standards.
+
+Freedom of expression and journalists' professional rights.
+
+Research, publications, and policy discussions.
+
+Youth media education and school media clubs.
+
+Digital journalism, artificial intelligence, and citizen media.
+
+F. Official Photo Gallery
+Create a modern, responsive photo gallery with:
+
+Image upload and management for authorized administrators.
+
+Multiple photographs per event.
+
+Album creation and category filters.
+
+Captions, event names, and dates.
+
+Full-screen image viewing and lightbox navigation.
+
+Image previews, optimized thumbnails, and alternative text.
+
+G. Video Gallery
+Include:
+
+Video thumbnails and titles.
+
+Event recordings, interviews, documentaries, and training videos.
+
+Embedded YouTube videos.
+
+Direct video upload and storage where supported by the backend.
+
+Video descriptions, categories, dates, and playback controls.
+
+H. Publications and Research
+Display research papers, reports, newsletters, policy documents, and PDF downloads in a searchable library.
+
+I. Events and Notices
+Display upcoming conferences, workshops, seminars, training programmes, official notices, and event photographs.
+
+J. Professional footer
+Include verified contact information, office address, telephone, email, social media links, privacy policy, accessibility information, and copyright notice.
+
+3. News Publishing and Administration Dashboard
+
+Develop a clean administrative dashboard for authorized staff.
+
+The dashboard must allow administrators and editors to:
+
+Sign in securely and sign out.
+
+Create, edit, save, publish, unpublish, and delete articles.
+
+Upload and replace featured images.
+
+Add article titles, summaries, full text, dates, authors, categories, and tags.
+
+Manage press releases and official announcements.
+
+Upload and organize photos into event albums.
+
+Upload or embed videos.
+
+Manage events and downloadable publications.
+
+Preview content before publishing.
+
+Save drafts and, where supported, schedule publication.
+
+Search and filter existing content.
+
+Manage user permissions according to assigned roles.
+
+Provide clear notifications, validation messages, confirmation dialogs, and a professional content-management interface.
+
+4. Upload Functionality
+
+Create a user-friendly media-management interface with drag-and-drop upload, file selection, progress indicators, image previews, and upload status messages.
+
+Support JPEG, PNG, and WebP images. Support common video formats such as MP4 where permitted by server configuration.
+
+Apply server-side file validation, file-size limits, secure storage, access controls, and safe file naming. Never permit uploaded files to execute as server code.
+
+Ordinary visitors must not have permission to upload content directly to the official website unless a separate, moderated submission system is deliberately implemented.
+
+5. Front-End Technical Requirements
+
+Use only:
+
+HTML5 for semantic page structure.
+
+CSS3 for layouts, colors, responsive design, and animation.
+
+Vanilla JavaScript for interactions and interface functionality.
+
+Organize the source code clearly:
+
+/index.html
+/about.html
+/news.html
+/news-detail.html
+/press-releases.html
+/gallery.html
+/videos.html
+/publications.html
+/events.html
+/contact.html
+/admin.html
+/assets/css/style.css
+/assets/js/main.js
+/assets/js/gallery.js
+/assets/js/news.js
+/assets/images/
+
+Additional files may be introduced when necessary.
+
+Use reusable navigation patterns, consistent spacing, accessible forms, responsive grids, clean JavaScript, and maintainable CSS. Avoid unnecessary dependencies.
+
+6. Essential Production Backend
+
+Do not simulate a fully functional publishing system using only browser-side JavaScript.
+
+For the real website, connect the front end to a secure server-side backend, database, authentication system, and persistent media storage.
+
+Implement:
+
+Secure administrator authentication.
+
+Role-based permissions.
+
+Permanent news and publication storage.
+
+Secure photo and video upload processing.
+
+Database-backed gallery and event management.
+
+Server-side validation and sanitization.
+
+Protection against common web attacks.
+
+HTTPS and secure session management.
+
+Backups, logging, and recovery procedures.
+
+The public website must display only published content. Drafts and administrative functions must remain restricted to authorized users.
+
+7. Search Engine Optimization and Accessibility
+
+Implement meaningful page titles, meta descriptions, semantic HTML, social-sharing metadata, descriptive image alt text, keyboard navigation, accessible focus indicators, responsive images, and optimized loading.
+
+Design the website to support Sinhala, Tamil, and English, with a language selector and properly rendered Unicode text.
+
+Test the website on desktop, tablet, and mobile devices.
+
+8. Official Content and Authenticity
+
+Do not invent names of officials, organizational achievements, statistics, awards, government endorsements, contact details, or institutional history.
+
+Use clearly labelled placeholders until verified content is supplied. Maintain an official, impartial, professional tone throughout.
+
+9. Required Deliverables
+
+Deliver:
+
+Complete HTML, CSS, and JavaScript source code.
+
+Responsive homepage and all main website pages.
+
+Functional navigation, search interface, and photo lightbox.
+
+News, photo, and video gallery interfaces.
+
+Administrator dashboard interface.
+
+Secure backend, database, and permanent upload integration for production.
+
+Sample content clearly marked as demonstration content.
+
+Installation and hosting instructions.
+
+Domain connection and HTTPS setup instructions.
+
+Testing, security, backup, and maintenance documentation.
+
+10. Development Instructions
+
+Start by building a visually impressive, fully responsive homepage with a working navigation menu, realistic demonstration news cards, photo gallery, video gallery, institutional information, and professional footer.
+
+Then implement the remaining pages and administrative interface. Connect publishing and uploading features to a secure backend before presenting them as production-ready.
+
+Ensure the final product is suitable for deployment as the official website of the National Media Foundation of Sri Lanka. Deliver clean source code and explain how a beginner can test and publish the website.
